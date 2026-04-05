@@ -31,6 +31,7 @@ A RESTful backend API for a finance dashboard system with role-based access cont
 | Manage users | ✗ | ✗ | ✓ |
 
 ## Project Structure
+```
 src/
 ├── config/          # env, db, swagger config
 ├── middlewares/     # auth, role guard, validation, error handler
@@ -40,6 +41,7 @@ src/
 │   ├── records/     # financial records CRUD + filters + categories
 │   └── dashboard/   # summary, trends, category breakdown
 └── utils/           # response formatter, error classes
+```
 
 ## API Endpoints
 
