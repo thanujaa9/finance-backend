@@ -9,9 +9,9 @@ const options = {
       description: 'Backend API for a finance dashboard with role-based access control',
     },
     servers: [
-      { url: 'http://localhost:5555', description: 'Local' },
-      { url: 'https://finance-backend-production.up.railway.app', description: 'Production' },
-    ],
+  { url: 'http://localhost:5555', description: 'Local' },
+  { url: 'https://finance-backend-production-3186.up.railway.app', description: 'Production' },
+],
     components: {
       securitySchemes: {
         bearerAuth: {
